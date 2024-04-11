@@ -1,10 +1,18 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+The e-School Management application is a comprehensive tool designed to streamline administrative tasks and facilitate efficient management of educational institutions. Developed using Next.js with MongoDB as the database backend, this application is tailored to meet the specific needs of school administrators, providing robust features for managing teachers, students, courses, groups, and subjects.
+
 ## Getting Started
 
-First, run the development server:
+First install the dependencies, then run the development server:
+1. Clone the e-School Management application repository to your local machine.
+2. Install project dependencies using the command npm install.
+3. Configure environment variables, including MongoDB credentials and any necessary API keys.
+4. Start the development server by running npm run dev.
 
 ```bash
+npm install
+# then
 npm run dev
 # or
 yarn dev
@@ -20,17 +28,16 @@ You can start editing the page by modifying `app/page.js`. The page auto-updates
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+## Key Features:
 
-To learn more about Next.js, take a look at the following resources:
+Teacher Management: Easily manage teacher profiles, including personal information, contact details, and assigned courses or subjects. Administrators can add, edit, or remove teachers as needed, ensuring accurate staff records.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Student Management: Seamlessly organize student information, such as enrollment details, academic performance, and attendance records. The application allows for easy enrollment of new students and provides tools for tracking student progress.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Course Structure: Define and manage the structure of courses offered by the school, including curriculum outlines, prerequisites, and scheduling information. Administrators can create course templates and customize them to suit the specific needs of each class.
 
-## Deploy on Vercel
+Group Management: Organize students into groups based on grade levels, classes, or other criteria. The application allows for flexible group management, enabling administrators to assign students to appropriate groups and monitor group activities.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Subject Management: Define the subjects taught within each course and assign teachers to teach specific subjects. Administrators can easily configure subject assignments and track teaching assignments across different courses.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The e-School Management application was created by António Costa for the purpose of assisting Miguel Costa (My Dad) in managing his school effectively.
